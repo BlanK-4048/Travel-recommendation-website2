@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background for header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Search Bar Styles */
+#search-section {
+    margin: 20px 0;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 200px; /* Adjust the width as necessary */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton, #clearButton {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#searchButton:hover, #clearButton:hover {
+    background-color: #555;
+}
+
+/* Image Sizes for Beaches and Temples */
+.recommendation {
+    display: inline-block;
+    margin: 20px;
+}
+
+.recommendation img {
+    width: 400px;  /* Large images for beaches and temples */
+    height: auto;
+    border-radius: 10px;  /* Rounded corners for style */
+}
+
+/* Smaller Image Sizes for Country Recommendations */
+#countryImages img {
+    width: 400px;  /* Smaller country images */
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background for footer */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
